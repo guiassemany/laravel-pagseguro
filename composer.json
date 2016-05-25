@@ -1,0 +1,22 @@
+{
+    "name": "guiassemany/laravel-pagseguro",
+    "description": "Adaptação da API de integração com o PagSeguro: phpsc/pagseguro para o Laravel 5.",
+    "license": "MIT",
+    "authors": [
+      {
+          "name": "Guilherme Assemany",
+          "email": "guilherme@assemany.com",
+          "homepage": "http://www.assemany.com",
+          "role": "Developer"
+      }
+    ],
+    "require": {
+        "phpsc/pagseguro": "1.0.0alpha7"
+    },
+    "autoload": {
+        "psr-4": {
+          "LaravelPagSeguro\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
