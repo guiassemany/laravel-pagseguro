@@ -18,5 +18,5 @@
           "GuiAssemany\\LaravelPagSeguro\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
