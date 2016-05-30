@@ -3,6 +3,12 @@
 ## Instalação
 * Vá para a pasta do seu projeto
 * Execute ``` composer require guiassemany/laravel-pagseguro ```
+* Se ao executar o comando acima, existirem problemas em relação à requisitos mínimos de versão do pacote, adicione ao seu composer.json:
+```
+...
+"minimum-stability": "dev",
+"prefer-stable" : true
+```
 
 Após o pacote ter sido baixado, abra o arquivo config/app.php e adicione o Service Provider do pacote no array 'providers' que está dentro deste arquivo.
 
