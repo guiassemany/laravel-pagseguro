@@ -20,7 +20,7 @@ Abra o terminal de sua preferência, e dentro da pasta do seu projeto execute o 
 php artisan vendor:publish
 ```
 
-Este comando irá publicar o arquivo de configuração psconfig.php dentro da pasta config do laravel.
+Este comando irá publicar o arquivo de configuração **psconfig.php** dentro da pasta config do laravel.
 
 No arquivo **config/psconfig.php**, você poderá editar o ambiente desejado para o PagSeguro(dev ou prod), o e-mail da conta e o TOKEN.
 
